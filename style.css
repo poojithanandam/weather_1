@@ -1,0 +1,111 @@
+h1{
+    text-align: center;
+    font-size: larger;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.icon>img{
+    width:70px;
+    height: 70px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.search>button{
+    border-radius: 10px;
+}
+.search1>input[type="text"]{
+    border-radius: 8px;
+}
+.submit>input[type="submit"]{
+    border-radius: 8px;
+}
+.mon{
+    display: flex;
+    justify-content:space-evenly;
+}
+.monimage>img{
+    width: 100px;
+    height: 100px;
+}
+.tue{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tueimage>img{
+    width: 100px;
+    height: 100px;
+}
+.wed{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.wedimage>img{
+    width: 100px;
+    height: 100px;
+}
+.thu{
+    display: flex;
+    justify-content: space-evenly;
+}
+.thuimage>img{
+    width: 100px;
+    height: 100px;
+}
+.fri{
+    display: flex;
+    justify-content: space-evenly;
+}
+.friimage>img{
+    width: 100px;
+    height: 100px;
+}
+.sat{
+    display: flex;
+    justify-content: space-evenly;
+}
+.satimage>img{
+    width: 100px;
+    height: 100px;
+}
+.sun{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sunimage>img{
+    width: 100px;
+    height: 100px;
+}
+.daily{
+    display:grid;
+    align-items: center;
+    padding: 20px;
+}
+.main{
+    background-color:rgb(181, 219, 225);
+}
+.search{
+    background-color: rgb(224, 241, 182);
+}
+@media (max-width: 768px) {
+    .address {
+        flex-direction: column;
+        text-align: center;
+    }
+    .text {
+        margin-right: 0;
+    }
+    .daily {
+        flex-direction: column;
+        align-items: center;
+    }
+    .daily div {
+        width: 80%;
+    }
+}
